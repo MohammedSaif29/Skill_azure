@@ -1,0 +1,4 @@
+file,size_mb,download_time_sec,throughput_mb_s
+workload_1MB.txt,1.0,1.5289,0.65
+workload_10MB.txt,10.0,24.7689,0.4
+workload_100MB.txt,100.0,186.9721,0.53
