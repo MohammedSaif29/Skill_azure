@@ -56,7 +56,7 @@ function App() {
       try {
 
         const response = await fetch(
-          "http://localhost:5000/api/benchmark"
+          "/api/benchmark"
         );
 
         if (!response.ok) {
@@ -117,7 +117,7 @@ function App() {
     try {
 
       const response = await fetch(
-        "http://localhost:5000/api/recommend",
+        "/api/recommend",
         {
           method: "POST",
 
